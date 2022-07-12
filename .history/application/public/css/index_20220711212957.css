@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(249, 249, 166);
+}
+
+.card {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  width: 500px;
+  height: 1000px;
+  background-color: rgb(51, 240, 221);
+  border: solid 5px white;
+}
+
+
+
+
+span {
+  font-size: 5px;  
+}

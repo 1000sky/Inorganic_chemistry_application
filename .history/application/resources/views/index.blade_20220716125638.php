@@ -13,9 +13,10 @@
       {
         fObj.style.visibility = vType;
       };
-  
+    </script>
+    <script>
       document.getElementById("point").onclick = function() {
-        document.getElementById("point-text").innerHTML = " 硫酸";
+        document.getElementById("point-text").innerHTML = "クリックされた！";
       };
        </script>
        

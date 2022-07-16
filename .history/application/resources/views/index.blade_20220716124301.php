@@ -13,9 +13,9 @@
       {
         fObj.style.visibility = vType;
       };
-  
+
       document.getElementById("point").onclick = function() {
-        document.getElementById("point-text").innerHTML = " 硫酸";
+        document.getElementById("point-text").innerHTML = "クリックされた！";
       };
        </script>
        
@@ -73,8 +73,8 @@
         <br>
         <br>
 
-        <div id="point">
-           <p id="point-text">POINT</p>
+        <div class="point">
+           <p class="point-text">POINT</p>
         
 
           

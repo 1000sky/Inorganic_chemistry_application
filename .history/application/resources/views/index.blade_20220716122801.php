@@ -12,13 +12,8 @@
       function setTF(fObj,vType)
       {
         fObj.style.visibility = vType;
-      };
-  
-      document.getElementById("point").onclick = function() {
-        document.getElementById("point-text").innerHTML = " 硫酸";
-      };
+      }
        </script>
-       
 </head>
 <body>
     <div class=card>
@@ -73,12 +68,12 @@
         <br>
         <br>
 
-        <div id="point">
-           <p id="point-text">POINT</p>
-        
+        <div class=point>
+           <p>POINT</p>
+          硫化物の塩は本来、水に溶けやすい
 
           
-          
+
 
         </div>
 

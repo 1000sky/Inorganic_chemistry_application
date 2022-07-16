@@ -8,17 +8,12 @@
     <link rel="stylesheet" href="css/reset.css" >
     <link rel="stylesheet" href="css/index.css" />
 
-    <script language="JavaScript">
+    <script language="JavaScript"><!--
       function setTF(fObj,vType)
       {
         fObj.style.visibility = vType;
-      };
-  
-      document.getElementById("point").onclick = function() {
-        document.getElementById("point-text").innerHTML = " 硫酸";
-      };
-       </script>
-       
+      }
+       --></script>
 </head>
 <body>
     <div class=card>
@@ -73,12 +68,12 @@
         <br>
         <br>
 
-        <div id="point">
-           <p id="point-text">POINT</p>
-        
+        <div class=point>
+           <p>POINT</p>
+          <details>硫化物の塩は本来、水に溶けやすい
 
-          
-          
+          </details>
+
 
         </div>
 

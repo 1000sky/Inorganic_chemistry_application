@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(20, 8, 75);
+}
+
+.card {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  width: 500px;
+  height: 800px;
+  background-color: rgb(42, 216, 208);
+  border: solid 5px white;
+  border-radius: 30px;
+}
+.checkbox{
+    height: 50px;
+    
+}
+.memorize{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Chemical-formula {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  
+}
+.circle:hover{
+    background-color: white;
+
+}
+
+.button{
+    border-radius: 10px;
+    border: solid 1px white;
+    background-color: white;
+    padding: 10px;
+}
+
+span {
+  font-size: 1.2rem;  
+}
+
+.point {
+   color: white;
+   
+  font-size: 2.5rem;
+}
+.h3 {
+  
+}
+
+
+.page{
+  
+  text-align: center;
+}
+
+.page li{
+  display: inline;
+  padding:10px 15px;
+  border:solid 1px ;
+  border-radius: 5px ;
+  color: rgb(42, 216, 208);
+  background-color: white;
+  
+  
+}
+
+
+
+.page li a:hover {
+  background-color: rgb(255, 231, 51);
+  text-decoration: none;
+}
+
+.page li {
+  
+  text-decoration: none;
+  color: rgb(42, 216, 208);
+}
+
+.page .this {
+  background-color:rgb(231, 219, 177); 
+  color:rgb(140, 59, 206);
+  text-decoration: none;
+}
+
+#point {
+  position: center;
+  cursor: pointer;
+  width: 450px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px ;
+}
+
+#point-text {
+  color: white;
+}

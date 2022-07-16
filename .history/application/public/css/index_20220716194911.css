@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(20, 8, 75);
+}
+
+.card {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 800px;
+
+  background-color: rgb(42, 216, 208);
+  border: solid 5px white;
+  border-radius: 30px;
+}
+.checkbox{
+    margin-top: 1rem;
+    
+}
+.memorize{
+  padding: 1.5rem 1.2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Chemical-formula {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  
+}
+.circle:hover{
+    background-color: white;
+
+}
+
+.button{
+   
+    margin: 1rem 0 0 2rem;
+    border-radius: 10px;
+    border: solid 1px white;
+    background-color: white;
+    padding: 10px;
+}
+
+span {
+  font-size: 1.2rem;  
+}
+
+.point {
+   color: white;
+   
+  font-size: 2.5rem;
+}
+
+
+
+.page{
+  
+  position: absolute;
+  left:18%;
+  bottom: 5%;
+
+}
+
+.page li{
+  display: inline; 
+  padding:10px 15px;
+  border:solid 1px ;
+  border-radius: 5px ;
+  color: rgb(42, 216, 208);
+  background-color: white;
+  text-decoration: none;
+  
+  
+}
+
+
+
+.page li a:hover {
+  background-color: rgb(255, 231, 51);
+  text-decoration: none;
+}
+
+
+
+.page .this {
+  background-color:rgb(231, 219, 177); 
+  color:rgb(140, 59, 206);
+  text-decoration: none;
+}
+
+#point {
+  
+  margin: 0 auto;
+  cursor: pointer;
+  width: 450px;
+  padding: 10px;
+  
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px ;
+}
+
+#point-text {
+  color: white;
+}
+
+.ion {
+  font-size: 0.5rem;
+  vertical-align: top;
+  
+}
+
+.hg {
+  font-size: 0.5rem;
+}
+
+
+/* 3ページのみ */
+.circle-CuOH{
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  
+}
+
+.circle-CuOH:hover {
+  background-color: rgb(98, 202, 223);
+  border-radius: 1px white;
+}
